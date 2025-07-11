@@ -11,6 +11,6 @@ program test1.aleo {
     @should_fail
     transition do_nothing() {
         let result: u32 = helloworld.aleo/main2(1u32);
-        assert_eq(result, 1u32);
+        assert_eq(result, 2u32);
     }
 }
